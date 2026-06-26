@@ -30,19 +30,8 @@ venv.bak/
 .ipynb_checkpoints/
 *.ipynb
 
-# ── Data — jangan commit file besar ─────────────
-data/raw/
-data/processed/*.csv
-data/processed/*.pkl
-data/geojson/*.geojson
 
-# Tapi izinkan file kecil contoh (opsional, hapus jika tidak perlu)
-# !data/processed/sample_*.csv
 
-# ── Model & Scaler ───────────────────────────────
-data/processed/*.pkl
-reports/clustering/*.png
-reports/clustering/*.csv
 
 # ── Streamlit cache ──────────────────────────────
 .streamlit/secrets.toml

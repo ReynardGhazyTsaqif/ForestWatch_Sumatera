@@ -1,0 +1,3 @@
+level,silhouette_score,davies_bouldin_index,calinski_harabasz,best_discriminator,best_eta_sq,weakest_discriminator,weakest_eta_sq,quality_judgement
+province,0.6107,0.649,17.49,max_loss,0.8921,trend_slope,0.3806,✅ SANGAT BAIK — kluster kompak dan terpisah jelas
+district,0.6804,0.7415,164.2,max_loss,0.7585,pct_recent,0.1248,✅ SANGAT BAIK — kluster kompak dan terpisah jelas

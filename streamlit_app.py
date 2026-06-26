@@ -328,6 +328,10 @@ section[data-testid="stSidebar"][aria-expanded="false"] {
     box-sizing: border-box !important;
 }
 
+[data-testid="stHeader"] {
+    background: transparent !important;
+    border-bottom: none !important;
+}
 
 </style>
 """, unsafe_allow_html=True)

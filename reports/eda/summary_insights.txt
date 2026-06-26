@@ -1,0 +1,51 @@
+
+ForestWatch Sumatera — Ringkasan Insights EDA
+Generated: 2026-06-25 17:47
+============================================================
+
+A. TREN KESELURUHAN SUMATERA
+  • Total kehilangan tutupan pohon (2001–2025) : 15.009 juta ha
+  • Total emisi CO₂ kumulatif                  : 11.250 miliar Mg CO₂e
+  • Rata-rata kehilangan per tahun             : 600.3 ribu ha/tahun
+  • Tahun dengan kehilangan tertinggi          : 2012
+  • Rata-rata loss 2001–2010                   : 599.8 ribu ha/tahun
+  • Rata-rata loss 2015–2025                   : 535.6 ribu ha/tahun
+  • Perubahan tren (awal vs terkini)           : ↓ menurun
+
+B. PERBANDINGAN PROVINSI
+  • Provinsi dengan loss terbesar : Riau (4.399 juta ha)
+  • Provinsi terurut (tinggi→rendah):
+    10. Riau                                 4,398.5 ribu ha
+     9. Sumatera Selatan                     3,405.1 ribu ha
+     8. Jambi                                2,082.2 ribu ha
+     7. Sumatera Utara                       1,694.9 ribu ha
+     6. Aceh                                   917.1 ribu ha
+     5. Sumatera Barat                         787.0 ribu ha
+     4. Bangka Belitung                        733.5 ribu ha
+     3. Bengkulu                               504.1 ribu ha
+     2. Lampung                                329.0 ribu ha
+     1. Kepulauan Riau                         157.1 ribu ha
+
+C. KABUPATEN/KOTA
+  • Kabupaten dengan total loss tertinggi : Musi Banyuasin (Sumatera Selatan)
+  • Total loss kabupaten tersebut         : 805.8 ribu ha
+
+D. DISTRIBUSI
+  • Mean  tree cover loss (provinsi/tahun): 60.0 ribu ha
+  • Median tree cover loss                : 35.7 ribu ha
+  • Std dev                               : 66.1 ribu ha
+  • Nilai minimum                         : 1,718.5 ha
+  • Nilai maksimum                        : 361.3 ribu ha
+
+E. KORELASI
+  • Pearson r (loss vs CO₂) : 0.968541
+  • p-value                 : 8.18e-152
+  • Interpretasi            : Korelasi sangat kuat & signifikan
+
+REKOMENDASI FITUR UNTUK CLUSTERING (Tahap 4):
+  • total_loss   — total kehilangan 2001–2025
+  • mean_loss    — rata-rata tahunan
+  • max_loss     — puncak kehilangan
+  • std_loss     — variabilitas antar tahun
+  • trend_slope  — kemiringan tren (OLS slope)
+  • pct_recent   — proporsi loss 2015–2025 vs total (menangkap tren terkini)
